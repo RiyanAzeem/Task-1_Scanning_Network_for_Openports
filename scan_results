@@ -1,0 +1,22 @@
+Nmap 7.97svn scan initiated mon sep 22 19:47:38 2025 as nmap -sS -oN scan-results.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up(0.0090s latency).
+Not shown: 944 filtered tcp ports (no-response)
+ port	  STATE  SERVICE
+53/tcp  open   domain
+80/tcp  open   http
+139/tcp open   netbios-ssn
+443/tcp open   https
+445/tcp open   microsoft-ds
+631/tcp open   ipp
+
+Nmap done at mon sep 22 19:47:45 -- 1 IP address (1 host up) scanned in 7.45 seconds
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0030s latency).
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+
+
