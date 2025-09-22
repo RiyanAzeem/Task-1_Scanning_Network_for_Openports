@@ -14,4 +14,4 @@
 intro: nmap is reconnaissance tool that scans the target and provide all the information. it mainly scan for ports and find for openports from which a adversary can enter the target system.
 nmap has various command for scanning. Here we are performing basing scanning using nmap to understand how it work.
 
-I have performed basic commands in nmap and i have used the help of chatgpt to gain the knowledge on nmap.
+I have performed basic commands in nmap and i have used the help of chatgpt to gain the knowledge on nmap, and from youtube i have gained knowledge how perform nmap practically.
