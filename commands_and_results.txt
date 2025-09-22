@@ -89,4 +89,18 @@ MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
 command: sudo nmap -sU < subnet > -oN udp-scan.txt
 
 result: 
-"udp scan scan slowly and it is still scanning once it is scaned i'll update the file"
+# Nmap 7.95 scan initiated Mon Sep 22 20:53:37 2025 as: /usr/lib/nmap/nmap -sU -oN udp-scan.txt 192.168.1.1
+Nmap scan report for 192.168.1.1
+Host is up (0.0083s latency).
+Not shown: 994 closed udp ports (port-unreach)
+PORT     STATE         SERVICE
+22/udp   open|filtered ssh
+23/udp   open|filtered telnet
+53/udp   open          domain
+67/udp   open|filtered dhcps
+69/udp   open|filtered tftp
+5060/udp open|filtered sip
+MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
+
+# Nmap done at Mon Sep 22 21:11:28 2025 -- 1 IP address (1 host up) scanned in 1070.64 seconds
+
