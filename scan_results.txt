@@ -1,5 +1,5 @@
 # Nmap 7.95 scan initiated Mon Sep 22 20:20:51 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_result1.txt 192.168.1.1
-Nmap scan report for 192.168.1.1
+Nmap scan report for xxx.xxx.x.x
 Host is up (0.0048s latency).
 Not shown: 992 closed tcp ports (reset)
 PORT    STATE    SERVICE
@@ -11,7 +11,7 @@ PORT    STATE    SERVICE
 443/tcp open     https
 445/tcp open     microsoft-ds
 631/tcp open     ipp
-MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
+MAC Address: xx:xx:xx:xx:xx:xx (Unknown)
 
 # Nmap done at Mon Sep 22 20:20:54 2025 -- 1 IP address (1 host up) scanned in 3.32 seconds
 
