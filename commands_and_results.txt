@@ -1,8 +1,8 @@
-command: nmap -sS 192.168.1.1 -oN scan-results.txt.
+command: nmap -sS xxx.xxx.x.x -oN scan-results.txt.
 
 result: 
 Nmap 7.95 scan initiated Mon Sep 22 20:20:51 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN scan_result1.txt 192.168.1.1
-Nmap scan report for 192.168.1.1
+Nmap scan report for xxx.xxx.x.x
 Host is up (0.0048s latency).
 Not shown: 992 closed tcp ports (reset)
 PORT    STATE    SERVICE
@@ -14,15 +14,15 @@ PORT    STATE    SERVICE
 443/tcp open     https
 445/tcp open     microsoft-ds
 631/tcp open     ipp
-MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
+MAC Address: xx:xx:xx:xx:xx:xx (Unknown)
 
 Nmap done at Mon Sep 22 20:20:54 2025 -- 1 IP address (1 host up) scanned in 3.32 seconds
 
-command: nmap -sS -sV -O 192.168.1.1 -oN scan-results-detailed.txt
+command: nmap -sS -sV -O xxx.xxx.x.x -oN scan-results-detailed.txt
 
 result: 
 # Nmap 7.95 scan initiated Mon Sep 22 20:41:50 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -O -oN scan-results-detailed.txt 192.168.1.1
-Nmap scan report for 192.168.1.1
+Nmap scan report for xxx.xxx.x.x
 Host is up (0.0091s latency).
 Not shown: 992 closed tcp ports (reset)
 PORT    STATE    SERVICE      VERSION
@@ -47,7 +47,7 @@ SF:ProgNeg,53,"\0\0\0O\xffSMBr\0\0\0\0\x88\x03@\0\0\0\0\0\0\0\0\0\0\0\0\0\
 SF:0@\x06\0\0\x01\0\x11\x06\0\x032\0\x01\0\0\0\x01\0\0\0\x01\0D\x0e\0\0\xf
 SF:d\xf3\x80\0\)\x05\xa3>\xd3\+\xdc\x01\xb6\xfe\x08\n\0\xda\x1eN\xfelpA\]\
 SF:0\0");
-MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
+MAC Address: xx:xx:xx:xx:xx:xx (Unknown)
 Device type: general purpose|router
 Running: Linux 4.X|5.X, MikroTik RouterOS 7.X
 OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5 cpe:/o:mikrotik:routeros:7 cpe:/o:linux:linux_kernel:5.6.3
@@ -61,15 +61,15 @@ command: nmap -sS < subnet > -oG scan-results.gnmap -oX scan-results.xml.
 
 result: 
 # Nmap 7.95 scan initiated Mon Sep 22 20:39:41 2025 as: /usr/lib/nmap/nmap --privileged -sS -oG scan-results.gnmap -oX scan-results.xml 192.168.1.1
-Host: 192.168.1.1 ()	Status: Up
-Host: 192.168.1.1 ()	Ports: 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 53/open/tcp//domain///, 80/open/tcp//http///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 631/open/tcp//ipp///	Ignored State: closed (992)
+Host: xxx.xxx.x.x ()	Status: Up
+Host: xxx.xxx.x.x ()	Ports: 22/filtered/tcp//ssh///, 23/filtered/tcp//telnet///, 53/open/tcp//domain///, 80/open/tcp//http///, 139/open/tcp//netbios-ssn///, 443/open/tcp//https///, 445/open/tcp//microsoft-ds///, 631/open/tcp//ipp///	Ignored State: closed (992)
 # Nmap done at Mon Sep 22 20:39:43 2025 -- 1 IP address (1 host up) scanned in 2.17 seconds
 
-command: nmap -sS -p- 192.168.1.1 -oN host-all-ports.txt
+command: nmap -sS -p- xxx.xxx.x.x -oN host-all-ports.txt
 
 result: 
 # Nmap 7.95 scan initiated Mon Sep 22 20:44:04 2025 as: /usr/lib/nmap/nmap --privileged -sS -p- -oN host-all-ports.txt 192.168.1.1
-Nmap scan report for 192.168.1.1
+Nmap scan report for xxx.xxx.x.x
 Host is up (0.0089s latency).
 Not shown: 65526 closed tcp ports (reset)
 PORT     STATE    SERVICE
@@ -82,7 +82,7 @@ PORT     STATE    SERVICE
 445/tcp  open     microsoft-ds
 631/tcp  open     ipp
 2233/tcp filtered infocrypt
-MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
+MAC Address: xx:xx:xx:xx:xx:xx (Unknown)
 
 # Nmap done at Mon Sep 22 20:45:13 2025 -- 1 IP address (1 host up) scanned in 69.31 seconds
 
@@ -100,7 +100,7 @@ PORT     STATE         SERVICE
 67/udp   open|filtered dhcps
 69/udp   open|filtered tftp
 5060/udp open|filtered sip
-MAC Address: 6C:4F:89:BD:D5:E1 (Unknown)
+MAC Address: xx:xx:xx:xx:xx:xx (Unknown)
 
 # Nmap done at Mon Sep 22 21:11:28 2025 -- 1 IP address (1 host up) scanned in 1070.64 seconds
 
